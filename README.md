@@ -26,11 +26,11 @@
 
 ```
 nextjs-boilerplate-2024/
-├─app			★ pages
- |    └─components		★ component
-├─store			★ statement management - redux
-├─public		★ static file
-└─hooks		★ custom hooks
+├─app			        ★ pages
+|  └─components		★ component
+├─store			      ★ statement management - redux
+├─public		      ★ static file
+└─hooks		        ★ custom hooks
 ```
 
 <br />
