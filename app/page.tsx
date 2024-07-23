@@ -1,6 +1,6 @@
-import Counter from "../app/components/Counter/Counter";
+import Counter from "@/app/components/common/Counter/Counter";
 
-const HomePage = () => {
+const Home = () => {
   return (
     <div>
       <Counter />
@@ -8,4 +8,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default Home;

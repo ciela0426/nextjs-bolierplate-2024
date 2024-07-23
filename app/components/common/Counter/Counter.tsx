@@ -1,8 +1,8 @@
 "use client";
 
 import { useSelector } from "react-redux";
-import { useAppDispatch } from "../../../store";
-import { increment, decrement, selectCount } from "../../../store/counterSlice";
+import { useAppDispatch } from "@/store";
+import { increment, decrement, selectCount } from "@/store/counterSlice";
 
 const Counter = () => {
   const count = useSelector(selectCount);
