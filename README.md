@@ -5,7 +5,7 @@
 
 ## 🛠️ Built With
 
-- [Bun](https://bun.sh/) Bundler
+- [Yarn](https://yarnpkg.com/) Package Manager
 - [Next.js](https://nextjs.org/) - v14
 - [Typescript](https://www.typescriptlang.org/)
 - [Redux](https://github.com/reduxjs/redux)
@@ -17,9 +17,10 @@
 
 - axios
 - redux
+- @redux-toolkit
 - sass
-
 - axios
+- clsx
   <br />
   <br />
 
@@ -27,11 +28,6 @@
 
 ```
 nextjs-boilerplate-2024/
-├─app             ★ pages
-|  └─components        ★ component
-├─store           ★ statement management - redux
-├─public          ★ static file
-└─hooks           ★ custom hooks
 ```
 
 <br />
