@@ -1,10 +1,13 @@
-import { configureStore } from '@reduxjs/toolkit';
-import { useDispatch } from 'react-redux';
-import counterReducer from './counterSlice';
+import { configureStore } from "@reduxjs/toolkit";
+import { useDispatch } from "react-redux";
+
+import counterReducer from "./slice/counterSlice";
+import loadingReducer from "./loading/loading";
 
 const store = configureStore({
   reducer: {
     counter: counterReducer,
+    loading: loadingReducer,
   },
 });
 

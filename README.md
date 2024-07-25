@@ -1,4 +1,4 @@
-<div align= "center"><img src="https://picsum.photos/200/300"/></div>
+<div align= "center"><img src="https://picsum.photos/200/200"/></div>
 <div align= "center">Next.js bolierplate 2024</div>
 <br />
 <br />
@@ -18,6 +18,7 @@
 - axios
 - redux
 - sass
+
 - axios
   <br />
   <br />
@@ -26,11 +27,11 @@
 
 ```
 nextjs-boilerplate-2024/
-├─app			        ★ pages
-|  └─components		★ component
-├─store			      ★ statement management - redux
-├─public		      ★ static file
-└─hooks		        ★ custom hooks
+├─app             ★ pages
+|  └─components        ★ component
+├─store           ★ statement management - redux
+├─public          ★ static file
+└─hooks           ★ custom hooks
 ```
 
 <br />

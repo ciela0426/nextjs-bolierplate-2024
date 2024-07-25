@@ -1,7 +1,8 @@
 import { ReactNode } from "react";
+import InitialLayout from "./_components/layout/InitialLayout/InitialLayout";
 
-import "../assets/styles/reset.scss";
-import ClientProvider from "./components/layout/ClientProvider/ClientProvider";
+// initial css style
+import "./_assets/_styles/reset.scss";
 
 interface LayoutProps {
   children: ReactNode;
@@ -11,7 +12,7 @@ const RootLayout = ({ children }: LayoutProps) => {
   return (
     <html lang="en">
       <body>
-        <ClientProvider>{children}</ClientProvider>
+        <InitialLayout>{children}</InitialLayout>
       </body>
     </html>
   );
