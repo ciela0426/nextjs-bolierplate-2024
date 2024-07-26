@@ -15,16 +15,17 @@
 
 ## ⚙️ Uging Package
 
-- axios
-- redux
-- @redux-toolkit
-- sass
-- axios
-- clsx
+- [redux](https://github.com/reduxjs/redux)
+- [@redux-toolkit](https://redux-toolkit.js.org/)
+- [sass](https://github.com/sass/dart-sass)
+- [axios](https://github.com/axios/axios)
+- [clsx](https://github.com/lukeed/clsx)
   <br />
   <br />
 
 ## 🗺 Project Structure
+
+[Structure ref](https://velog.io/@baby_dev/Next.js-13-%ED%8F%B4%EB%8D%94-%EA%B5%AC%EC%A1%B0-%EC%9D%B4%EC%81%9C-%EC%9E%A1%EA%B8%B0%EC%88%A0)
 
 ```
 nextjs-boilerplate-2024/
